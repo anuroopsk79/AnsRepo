@@ -4,7 +4,7 @@ public class App1 {
 	
 	private String greetings;
 
-	private App1() {
+	public App1() {
 
 	}
 
