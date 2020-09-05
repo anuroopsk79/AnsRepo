@@ -3,7 +3,7 @@ package com.anuroop.git;
 public class App2 {
 
 	private String thisIsMasterChange;
-	
+	private String forCompareBranches;
 	
 	public App2() {
 		
@@ -23,4 +23,13 @@ public class App2 {
 	public void setThisIsMasterChange(String thisIsMasterChange) {
 		this.thisIsMasterChange = thisIsMasterChange;
 	}
+
+	public String getForCompareBranches() {
+		return forCompareBranches;
+	}
+
+	public void setForCompareBranches(String forCompareBranches) {
+		this.forCompareBranches = forCompareBranches;
+	}
+		
 }
