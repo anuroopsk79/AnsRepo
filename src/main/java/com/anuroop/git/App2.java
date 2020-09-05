@@ -2,16 +2,25 @@ package com.anuroop.git;
 
 public class App2 {
 
+	private String thisIsMasterChange;
+	
+	
 	public App2() {
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public static void main(String[] args) {	
 
 	}
 
+	public String getThisIsMasterChange() {
+		return thisIsMasterChange;
+	}
+
+	public void setThisIsMasterChange(String thisIsMasterChange) {
+		this.thisIsMasterChange = thisIsMasterChange;
+	}
 }
